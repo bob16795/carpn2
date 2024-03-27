@@ -1,0 +1,10 @@
+cinc "<stdio.h>"
+inc "imp.car"
+
+extern printf i8$* i32
+
+proc main : i32 {
+    "%d\n" 10 Tmp.fib printf
+
+    0
+}

@@ -1,0 +1,10 @@
+struct Tmp {
+    proc fib i32 : i32 {
+        copy 2 < if {
+            1 ret
+        }
+
+        copy 1 - Self.fib
+        swap 2 - Self.fib +
+    }
+}
